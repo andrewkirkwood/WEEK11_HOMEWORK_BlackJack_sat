@@ -13,7 +13,7 @@ public class DealerTest {
         this.dealer = new Dealer();
         card = new Card(SuitType.HEARTS, FaceValueType.ACE);
     }
-
+/////
     @Test
     public void dealer_has_full_deck(){
         dealer.getDeck().populateDeck();
